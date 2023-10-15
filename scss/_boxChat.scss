@@ -1,0 +1,36 @@
+.box-chat{
+    background-color: white;
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+    height: 30rem;
+    width: 25rem;
+    .header{
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        border-bottom: 1px solid #111111;
+
+        img{
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            margin:  0.35rem;
+        }
+
+        .header-left{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 50%;
+
+            h3{
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+}
+

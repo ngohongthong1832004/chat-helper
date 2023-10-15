@@ -1,7 +1,19 @@
 .button-logo-chat{
-    background-color: aqua;
-    color: black;
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    svg {
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            opacity: .8;
+            scale: 1.2;
+            cursor: pointer;
+        }
+    }
 }
