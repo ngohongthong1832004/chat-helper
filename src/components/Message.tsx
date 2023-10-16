@@ -2,8 +2,8 @@
 import "../../scss/_message.scss"
 
 interface MessageProps {
-    message: string;
-    time: string;
+    message?: string;
+    time?: string;
     myMessage? : boolean;
 }
 

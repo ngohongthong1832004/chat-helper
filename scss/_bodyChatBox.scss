@@ -1,5 +1,30 @@
 .body-chat-box {
+    padding: 0.5rem;
     height: calc(100% - 6rem);
     background-color: white;
     overflow: auto;
+
+    .message + .message__me {
+        margin-top: 0.75rem;
+    }
+    .message__me + .message {
+        margin-top: 0.75rem;
+    }
+
+    .message + .message .message-info-time {
+        display: none;
+    }
+    
+    // .message + .message:first-child .message-info-time {
+    //     display: block; /* Display the first .message-info-time element */
+    // }
+
+    .message__me + .message__me .message-info-time {
+        display: none;
+    }
+    
+    // .message__me + .message__me:first-child .message-info-time {
+    //     display: block; /* Display the first .message-info-time element */
+    // }
+
 }

@@ -28,6 +28,9 @@
         font-size: 1.1rem;
         background-color: transparent;
         border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
         &:hover {

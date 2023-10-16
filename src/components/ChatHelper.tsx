@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import '../../scss/_chatHelper.scss';
 import '../../scss/main.scss';
+import '../../scss/_variables.scss'
 
 import ButtonLogoChat from './ButtonLogoChat';
 import BoxChat from './BoxChat';
