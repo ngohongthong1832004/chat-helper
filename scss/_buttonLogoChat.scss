@@ -1,13 +1,21 @@
 .button-logo-chat{
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    font-size: 2.5rem;
+    width: var(--size-logo-button);
+    height: var(--size-logo-button);
+    font-size: calc(var(--size-logo-button) / 2);
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: var(--bg-df-logo-button);
     border: none;
+    overflow: hidden;
+    .brandImg {
+        width: var(--size-logo-button);
+        height: var(--size-logo-button);
+        border-radius: 50%;
+        object-fit: contain;
+    }
+
     svg {
         transition: all 0.3s ease-in-out;
         &:hover{

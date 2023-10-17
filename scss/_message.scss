@@ -32,6 +32,13 @@
             border-radius: 0.5rem;
             overflow-wrap: break-word;
         }
+
+        .message-img {
+            margin-top: .3rem;
+            max-width: var(--max-w-message-img);
+            max-height: var(--max-h-message-img);
+            border-radius: 0.5rem;
+        }
     
         .message-info {
             display: flex;

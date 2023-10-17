@@ -8,16 +8,12 @@ const BodyChatBox = () => {
         <div className="body-chat-box">
             <DefaultMessage message='Can I help you !!!' time='15:64' optionsInfo={["hello", "wherewherewherewherewhere", "hello thie la ghe qua di khong biet lam may cai nay", "testchioitestchioitesttestchioitestchioitest"]}/>
             <Message myMessage = {true} message='hello asdkjsadk kjasndk ' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk ' time='15:64'/>
+            <Message myMessage = {true} message='hello asdkjsadk kjasndk asdkjsadk kjasndk asdkjsadk kjasndk ' time='15:64'/>
             <Message message='hello asdkjsadk kjasndk ' time='15:64'/>
-            {/* <Message message='helloasdkjsadkkjasndkkjasdkjasdkjasdhkjasdkajsdhkjasdhelloasdkjsadkkjasndkkjasdkja8◘sdkjasdhkjasdkajsdhkjasdhelloasdkjsadkkjasndkkjasdkjasdkjasdhkjasdkajsdhkjasd' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk ' time='15:64'/>
-            <Message message='hello aasdasjd asdb  kajsdhkjasd ' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk ' time='15:64'/>
-            <Message message='hello aasdasjd asdb  kajsdhkjasd ' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk hello asdkjsadk kjasndk hello asdkjsadk kjasndkhello asdkjsadk kjasndk' time='15:64'/>
-            <Message myMessage = {true} message='hello asdkjsadk kjasndk hello asdkjsadk kjasndk hello asdkjsadk kjasndkhello asdkjsadk kjasndk' time='15:64'/> */}
+            <Message isImg message='hello asdkjsadk kjasndk asdkjsadk kjasndk ' time='15:64'/>
+            <Message isImg message='hello asdkjsadk kjasndk asdkjsadk kjasndk ' time='15:64'/>
+            <Message isImg message='hello asdkjsadk kjasndk asdkjsadk kjasndk ' time='15:64'/>
+            <Message isImg message='hello asdkjsadk kjasndk asdkjsadk kjasndk asdjsah ' time='15:64'/>
         </div>
     )
 }

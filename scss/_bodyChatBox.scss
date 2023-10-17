@@ -1,6 +1,6 @@
 .body-chat-box {
     padding: 0.5rem;
-    height: calc(100% - 6rem);
+    height: calc(100% - var(--h-header-chat-box) - var(--h-input-chat-box));
     background-color: white;
     overflow: auto;
 

@@ -15,7 +15,7 @@ const BoxChat = ({handleShowChat, isShowChat} : BoxChatProps ) => {
             <div className='header'>
                 <div className='header-left'>
                     <img src="https://picsum.photos/50/50" alt="logo" />
-                    <h3>Chat helper</h3>
+                    <h3>Chat helper 4</h3>
                 </div>
                 <CloseButton isShowChat = {isShowChat} handleShowChat = {handleShowChat} />
             </div>

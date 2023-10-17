@@ -2,9 +2,46 @@ $rt-namespace: 'chat-helper';
 
 
 :root {
+
+    // Size
+
+
+
+    --w-chat-box : 27rem;
+    --h-chat-box : 32rem;
+
+    --h-header-chat-box : 3rem;
+    --h-input-chat-box : 3rem;
+
+    --max-h-message-img : 15rem;
+    --max-w-message-img : 20rem;
+
+
+    --size-logo-button : 5rem;
+
+    --w-message : calc(100% - 5rem);
+
+
+    // Fonts
+
+
+
+    // Colors
+    --black : #000;
+    --white : #fff;
+
+
+    --bg-df-logo-button : #fff;
+
+
+
+
+
+
     // Light theme
-    
+    --bg-l-logo-button : #fff;
 
 
     // Dark theme
+    --bg-d-logo-button : #000;
 }

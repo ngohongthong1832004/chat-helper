@@ -5,9 +5,10 @@ interface MessageProps {
     message?: string;
     time?: string;
     myMessage? : boolean;
+    isImg?: boolean;
 }
 
-const Message = ({ message, time, myMessage } : MessageProps) => {
+const Message = ({ message, time, myMessage, isImg } : MessageProps) => {
     return (
         <div className={`message${myMessage ? "__me" : ""}`}>
             { !myMessage && <div className="message-left">
@@ -18,6 +19,7 @@ const Message = ({ message, time, myMessage } : MessageProps) => {
                     {message}
                     <span className="message-info-time">{time}</span>
                 </p>
+                { isImg && <img className="message-img" src="https://picsum.photos/1250/2350" alt="" /> }
             </div>
         </div>
     )

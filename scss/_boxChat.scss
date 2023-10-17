@@ -1,39 +1,14 @@
-@keyframes box-chat__zoomIn {
-    from {
-      opacity: 0;
-      transform: scale3d(0.3, 0.3, 0);
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  
-  @keyframes box-chat__zoomOut {
-    from {
-      opacity: 1;
-      transform: scale3d(0, 0, 1);
-    }
-    50% {
-      opacity: 0;
-      transform: scale3d(0.5, 0.5, 1);
-    }
-    to {
-      transform: scale3d(1, 1, 1);
-      opacity: 0;
-    }
-  }
-
 .box-chat{
     background-color: white;
     border-radius: 0.75rem;
     padding: 0.25rem;
-    height: 32rem;
-    width: 27rem;
+    height: var(--h-chat-box);
+    width: var(--w-chat-box);
     overflow: hidden;
-    animation: box-chat__zoomIn 0.3s ease-in-out forwards;
+    animation: box-chat__zoomIn 0.35s ease-in-out forwards;
 
     .header{
-        height: 3rem;
+        height: var(--h-header-chat-box);
         width: 100%;
         display: flex;
         align-items: center;
