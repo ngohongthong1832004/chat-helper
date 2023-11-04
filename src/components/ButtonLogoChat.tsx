@@ -8,9 +8,6 @@ interface ButtonLogoChatProps {
 }
 
 const ButtonLogoChat = ({ handleShowChat, isShowChat, brandUrl }: ButtonLogoChatProps) => {
-
-    console.log(brandUrl);
-
     return (
         <button className='button-logo-chat' onClick={() => handleShowChat(!isShowChat)}>
             {  brandUrl ? <img className='brandImg' src={brandUrl} alt="logo" />

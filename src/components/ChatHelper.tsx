@@ -20,7 +20,6 @@ const ChatHelper = ({brandUrl} : ChatHelperProps) => {
     const handleShowChat = (showChat : boolean) => {
         setShowChat(showChat);
     }
-    console.log(brandUrl);
 
     return (
         <div className='chat-helper'>
