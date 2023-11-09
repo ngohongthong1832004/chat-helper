@@ -21,7 +21,9 @@
             height: 2rem;
             border-radius: 50%;
             margin:  0.35rem;
+            object-fit: contain;
         }
+        
 
         .header-left{
             display: flex;
@@ -31,6 +33,13 @@
 
             h3{
                 font-size: 1.1rem;
+            }
+            svg{
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+                margin:  0.35rem;
+                object-fit: contain;
             }
         }
     }

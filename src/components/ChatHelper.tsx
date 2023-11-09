@@ -10,24 +10,28 @@ import BoxChat from './BoxChat';
 
 
 interface ChatHelperProps {
+    config?: any;
     brandUrl?: string;
+    position?: string;
+    brandName? : string;
 }
 
-const ChatHelper = ({brandUrl} : ChatHelperProps) => {
+const ChatHelper = ({ config, brandUrl, position, brandName } : ChatHelperProps) => {
 
 
     const [showChat, setShowChat] = useState<boolean>(false);
     const handleShowChat = (showChat : boolean) => {
         setShowChat(showChat);
     }
+    
 
     return (
-        <div className='chat-helper'>
+        <div className={`chat-helper chat-helper--${position}`}>
             { 
                 showChat ? 
-                <BoxChat isShowChat = {showChat} handleShowChat = {handleShowChat}  /> 
+                <BoxChat config = {config} brandUrl={brandUrl ?  brandUrl : ""} brandName = {brandName} isShowChat = {showChat} handleShowChat = {handleShowChat}  /> 
                 : 
-                <ButtonLogoChat brandUrl={brandUrl ?  brandUrl : ""} isShowChat = {showChat} handleShowChat = {handleShowChat} />  
+                <ButtonLogoChat config = {config} brandUrl={brandUrl ?  brandUrl : ""} isShowChat = {showChat} handleShowChat = {handleShowChat}  />  
             }
         </div>
     )

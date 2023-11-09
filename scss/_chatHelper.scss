@@ -2,10 +2,24 @@
 
 .chat-helper{
     position: fixed;
-    bottom: 1rem;
-    right: 1rem;
     font-family: 'Titillium Web', sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    &--top-left{
+        top: 0;
+        left: 0;
+    }
+    &--top-right{
+        top: 0;
+        right: 0;
+    }
+    &--bottom-left{
+        bottom: 0;
+        left: 0;
+    }
+    &--bottom-right{
+        bottom: 0;
+        right: 0;
+    }
 }
